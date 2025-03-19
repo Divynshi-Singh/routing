@@ -1,35 +1,36 @@
-import React from 'react'
-
+import React from 'react';
 const About = () => {
   return (
-    <div className=" container mx-auto p-2 pl-[20px] overflow-hidden">
-      <h1 className="text-4xl font-bold mb-6">About Us</h1>
-      <p className="text-lg mb-6">
-        Welcome to our company! We specialize in providing cutting-edge solutions to meet the needs of our diverse clientele. With a passion for excellence, we aim to innovate and lead in every project we undertake.
-      </p>
-
-      <h2 className="text-3xl font-semibold mb-4">Our Story</h2>
-      <p className="text-lg mb-6">
-        Our journey began with a vision to create something extraordinary. Over the years, we have built a reputation for being pioneers in our field. We started small, but our commitment to quality, customer satisfaction, and innovation has allowed us to grow rapidly. Today, we stand as a trusted name in the industry, recognized for our exceptional service and expertise.
-      </p>
-
-      <h2 className="text-3xl font-semibold mb-4">Our Mission</h2>
-      <p className="text-lg mb-6">
-        Our mission is simple: to provide high-quality, innovative solutions that improve the lives of our customers. We believe in continuous growth and evolution, ensuring that we stay ahead of the curve and always deliver the best.
-      </p>
-
-      <h2 className="text-3xl font-semibold mb-4">Our Vision</h2>
-      <p className="text-lg mb-6">
-        Our vision is to be the go-to provider for solutions that make a meaningful difference in the world. We aim to inspire trust, foster innovation, and create positive change in every community we touch.
-      </p>
-
-      <h2 className="text-3xl font-semibold mb-4">Our Values</h2>
-      <p className="text-lg mb-4">
-      With years of experience in the industry, we have the expertise and resources to provide you with the best solutions. Our team is made up of highly skilled <br/>professionals who are passionate about what they do. We work closely with our clients to understand their needs and deliver tailored solutions that achieve their goals. <br/>Whether you're a small startup or a large corporation, we can help you succeed.
-        We operate with a set of core values that guide us in every decision we make:
-      </p>
+    <div className="about-container">
+      <h1 className="about-title">About Us</h1>
+      <div className="about-text">
+        Welcome to our innovative company, where we strive to push the boundaries of what's possible. 
+        Founded with a vision to disrupt traditional industries,
+        our team has always been at the forefront of technological advancements and creative solutions.
+        We understand that in today's fast-paced world, innovation is not just a luxury but a necessity.
+        That's why we invest heavily in research and development, continuously seeking new ways to improve our products and services,
+        while also exploring new avenues to grow and diversify.
+        Our journey began with a simple idea: to create solutions that solve real-world problems. Over the years,
+        we've expanded our operations, built partnerships with industry leaders,
+        and garnered a reputation for delivering high-quality, innovative solutions that exceed client expectations.
+        Whether it's pioneering new technologies or improving upon existing ones,
+        we are constantly evolving to meet the ever-changing needs of our clients.
+        Innovation is at the heart of everything we do. We believe that it's not just about inventing new products,
+        but about rethinking how things are done and striving for continuous improvement.
+        Our teams work closely with customers to understand their unique challenges and needs, tailoring solutions that are practical, efficient, and impactful. We don't
+        just think outside the box—we aim to redefine the box itself.
+        We are proud of what we have accomplished so far, but we are only just getting started. 
+        Our vision is to continue leading the way in innovation, not just in our field, but across industries.
+        We are excited about the future and the endless possibilities that lie ahead.
+        Whether it's transforming the way businesses operate or improving the lives of individuals, we are dedicated to making a positive impact on the world through
+        innovative solutions that drive progress, create value, and inspire change.
+        As we look to the future, we invite you to join us on this exciting journey. Together, 
+        we can continue to push the boundaries of what's possible and shape a world that is smarter,
+        more sustainable, and more connected.
+        Welcome to a company that's not just thinking about the future—but building it.
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
