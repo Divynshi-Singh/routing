@@ -1,11 +1,11 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from './components/About';
-import Contact from './components/Contact';
-import Message from './components/Message';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Message from './Pages/MessageList';
 import Navbar from './components/Navbar';
-import NotFound from './components/NotFound';
-import MessageDetails from './components/MessageDetails';
+import NotFound from './Pages/NotFound';
+import MessageDetails from './Pages/MessageDetails';
 const App = () => {
   return (
     <div>

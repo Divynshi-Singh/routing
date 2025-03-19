@@ -1,10 +1,8 @@
-/* General Body styles */
 body {
    background-color: #d9d9d9;
    overflow-x: hidden;
 }
 
-/* Navbar container */
 .navbar {
    display: flex;
    background-color: #6c757d;
@@ -131,7 +129,6 @@ a{
    margin-bottom: 1.5rem;
 }
 
-/* Contact Page Styles */
 .contact-container {
    display: flex;
    justify-content: space-between;
@@ -224,13 +221,11 @@ a{
 
 @media screen and (max-width: 768px) {
 
-   /* Navbar */
    .navbar a {
       font-size: 16px;
       text-align: center;
    }
 
-   /* Headings box */
    .headings-box {
       width: 100%;
       padding: 10px;
@@ -241,14 +236,12 @@ a{
       padding: 15px;
    }
 
-   /* Modal content */
    .modal-content {
       width: 90%;
       height: auto;
       padding: 15px;
    }
 
-   /* About Page */
    .about-container {
       padding-left: 20px;
       padding-right: 20px;
@@ -262,7 +255,6 @@ a{
       font-size: 16px;
    }
 
-   /* Contact Page */
    .contact-title {
       font-size: 1.5rem;
    }
@@ -281,7 +273,6 @@ a{
 
 @media screen and (max-width: 480px) {
 
-   /* Navbar */
    .navbar {
       padding-left: 10px;
       padding-right: 10px;
@@ -291,7 +282,6 @@ a{
       font-size: 14px;
    }
 
-   /* Headings box */
    .headings-box {
       width: 100%;
       padding: 10px;
@@ -303,14 +293,12 @@ a{
       font-size: 18px;
    }
 
-   /* Modal content */
    .modal-content {
       width: 90%;
       height: auto;
       padding: 10px;
    }
 
-   /* About Page */
    .about-title {
       font-size: 1.5rem;
    }
