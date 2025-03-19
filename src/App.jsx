@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Message from './components/Message';
 import Navbar from './components/Navbar';
 import NotFound from './components/NotFound';
+import MessageDetails from './components/MessageDetails';
 const App = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/message" element={<Message />} />
+          <Route path="/message/:sectionId" element={<MessageDetails />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

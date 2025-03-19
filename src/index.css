@@ -64,6 +64,10 @@ body {
    transition: background-color 0.3s;
 }
 
+a{
+   color:white;
+   text-decoration: none;
+}
 .heading:hover {
    background-color: #0056b3;
 }
@@ -329,4 +333,31 @@ body {
    .contact-text {
       margin-bottom: 30px;
    }
+}
+
+.notfound-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.notfound-content {
+   padding: 100px;
+   border-radius: 8px;
+  
+   text-align: center;
+}
+
+.notfound-title {
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.notfound-link {
+   color: #3b82f6;
+   text-decoration: none;
+}
+
+.notfound-link:hover {
+   color: #ef4444; 
 }
