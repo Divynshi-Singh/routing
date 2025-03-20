@@ -1,0 +1,23 @@
+[
+    {
+      "id": "1",
+      "title": "General Information",
+      "description": "In this section, you will find an overview of our company, including our mission, vision, and values. We provide insight into the various services we offer to cater to different needs, helping our clients achieve their goals..."
+    },
+    {
+      "id": "2",
+      "title": "Terms and Conditions",
+      "description": "The Terms and Conditions section is crucial for understanding the legal framework under which we operate..."
+    },
+    {
+      "id": "3",
+      "title": "Privacy Policy",
+      "description": "Our Privacy Policy is designed to provide transparency regarding the data we collect, how we use it, and how we safeguard your personal information..."
+    },
+    {
+      "id": "4",
+      "title": "FAQs",
+      "description": "The Frequently Asked Questions (FAQ) section is a helpful resource for those seeking quick answers to common inquiries..."
+    }
+  ]
+  

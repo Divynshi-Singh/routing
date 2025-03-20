@@ -1,0 +1,392 @@
+ body {
+   background-color: #d9d9d9;
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+}
+
+.navbar {
+   display: flex;
+   background-color: #6c757d;
+   height: 70px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   margin: 0 auto;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+.navbar-link {
+   color: white;
+   font-size: 20px;
+   font-weight: 600;
+   text-decoration: none;
+   transition: color 0.3s ease-in-out;
+}
+
+.navbar-link:hover {
+   color: blue;
+}
+
+.active-link {
+   color: blue;
+   font-weight: bold;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.headings-box {
+   margin-bottom: 100px;
+   width: 700px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   padding: 20px;
+   margin-top: 50px;
+   border-radius: 10px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+   cursor: pointer;
+   padding: 10px;
+   margin: 10px 0;
+   background-color: #007BFF;
+   color: white;
+   border-radius: 5px;
+   width: 600px;
+   text-align: center;
+   transition: background-color 0.3s;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+.heading:hover {
+   background-color: #0056b3;
+}
+
+.modal {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 999;
+   pointer-events: none;
+}
+
+.modal-content {
+   background-color: white;
+   width: 700px;
+   height: 230px;
+   padding: 20px;
+   line-height: 25px;
+   border-radius: 10px;
+   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+   text-align: center;
+   pointer-events: auto;
+}
+
+.navbar {
+   position: relative;
+   z-index: 1000;
+}
+
+.modal-content button {
+   padding: 10px 20px;
+   margin-top: 10px;
+   background-color: #FF5733;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.modal-content button:hover {
+   background-color: #FF2E00;
+}
+
+.about-container {
+   padding-left: 50px;
+   max-width: 1400px;
+   overflow: hidden;
+}
+
+.about-title {
+   font-size: 2.25rem;
+   font-weight: bold;
+   margin-bottom: 1.5rem;
+}
+
+.about-text {
+   font-size: 19px;
+   line-height: 27px;
+   margin-bottom: 1.5rem;
+}
+
+.contact-container {
+   display: flex;
+   justify-content: space-between;
+   padding: 1.5rem;
+   overflow: hidden;
+}
+
+.contact-image {
+   width: 50%;
+   overflow: hidden;
+}
+
+.contact-img {
+   height: 590px;
+   width: 100%;
+   object-fit: cover;
+}
+
+.contact-text {
+   width: 50%;
+   padding-left: 12px;
+   margin-bottom: 150px;
+}
+
+.contact-title {
+   font-size: 1.875rem;
+   font-weight: bold;
+   margin-bottom: 1rem;
+
+}
+
+.contact-description {
+   font-size: 1.125rem;
+   margin-bottom: 1rem;
+}
+
+.contact-subtitle {
+   font-size: 1.5rem;
+   font-weight: 600;
+   margin-bottom: 0.5rem;
+}
+
+.contact-info {
+   font-size: 1.125rem;
+   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+   .navbar {
+      flex-direction: column;
+      padding-left: 15px;
+      padding-right: 15px;
+      height: auto;
+   }
+
+   .navbar a {
+      font-size: 18px;
+      margin: 5px 0;
+   }
+
+   .contact-container {
+      flex-direction: column;
+      padding: 1rem;
+   }
+
+   .contact-image,
+   .contact-text {
+      width: 100%;
+   }
+
+   .contact-img {
+      height: 400px;
+   }
+
+   .contact-title,
+   .contact-description,
+   .contact-subtitle,
+   .contact-info {
+      font-size: 1.125rem;
+   }
+
+   .contact-text {
+      margin-bottom: 50px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+
+   .navbar a {
+      font-size: 16px;
+      text-align: center;
+   }
+
+   .headings-box {
+      width: 100%;
+      padding: 10px;
+   }
+
+   .heading {
+      width: 100%;
+      padding: 15px;
+   }
+
+   .modal-content {
+      width: 90%;
+      height: auto;
+      padding: 15px;
+   }
+
+   .about-container {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
+   .about-title {
+      font-size: 1.75rem;
+   }
+
+   .about-text {
+      font-size: 16px;
+   }
+
+   .contact-title {
+      font-size: 1.5rem;
+   }
+
+   .contact-description,
+   .contact-subtitle,
+   .contact-info {
+      font-size: 1rem;
+   }
+
+   .contact-container {
+      flex-direction: column;
+      padding: 1rem;
+   }
+}
+
+@media screen and (max-width: 480px) {
+
+   .navbar {
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+
+   .navbar a {
+      font-size: 14px;
+   }
+
+   .headings-box {
+      width: 100%;
+      padding: 10px;
+   }
+
+   .heading {
+      width: 100%;
+      padding: 12px;
+      font-size: 18px;
+   }
+
+   .modal-content {
+      width: 90%;
+      height: auto;
+      padding: 10px;
+   }
+
+   .about-title {
+      font-size: 1.5rem;
+   }
+
+   .about-text {
+      font-size: 14px;
+   }
+
+   .contact-container {
+      flex-direction: column;
+      padding: 1rem;
+   }
+
+   .contact-title,
+   .contact-description {
+      font-size: 1rem;
+   }
+
+   .contact-text {
+      margin-bottom: 30px;
+   }
+}
+
+.notfound-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.notfound-content {
+   padding: 100px;
+   border-radius: 8px;
+
+   text-align: center;
+}
+
+.notfound-title {
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.notfound-link {
+   color: #3b82f6;
+   text-decoration: none;
+}
+
+.notfound-link:hover {
+   color: #ef4444;
+}
+
+ .message-not-found {
+   background-color: white;
+   color: red;         
+   border: 1px solid #f5c6cb; 
+   padding: 20px;
+   border-radius: 10px;
+   margin: 200px auto;
+   width:30%;
+   max-width: 700px;
+   text-align: center;
+ }
+ 
+ .message-not-found h3 {
+   font-size: 1.75rem;
+   font-weight: bold;
+   margin-bottom: 13px;
+ }
+
+ .message-not-found button {
+   background-color: #007BFF; 
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .message-not-found button:hover {
+   background-color: #0056b3; 
+ } 
+   
