@@ -16,7 +16,7 @@ const MessageDetails = () => {
       <div className="modal-content">
         <h3>{section.title}</h3>
         <p>{section.description}</p>
-        <button onClick={() => navigate(-1)}>Go Back</button>
+        <button onClick={() => navigate("/message")}>Go Back</button>
       </div>
     </div>
   );

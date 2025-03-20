@@ -80,7 +80,6 @@ a {
    background-color: #0056b3;
 }
 
-/* Modal Styles */
 .modal {
    position: fixed;
    top: 0;
@@ -90,6 +89,8 @@ a {
    display: flex;
    justify-content: center;
    align-items: center;
+   z-index: 999;
+   pointer-events: none;
 }
 
 .modal-content {
@@ -101,6 +102,12 @@ a {
    border-radius: 10px;
    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
    text-align: center;
+   pointer-events: auto;
+}
+
+.navbar {
+   position: relative;
+   z-index: 1000;
 }
 
 .modal-content button {
