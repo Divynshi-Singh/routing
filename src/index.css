@@ -1,6 +1,10 @@
 body {
    background-color: #d9d9d9;
    overflow-x: hidden;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
 }
 
 .navbar {
@@ -28,7 +32,7 @@ body {
 }
 
 .active-link {
-   color: blue ;
+   color: blue;
    font-weight: bold;
 }
 
@@ -67,10 +71,11 @@ body {
    transition: background-color 0.3s;
 }
 
-a{
-   color:white;
+a {
+   color: white;
    text-decoration: none;
 }
+
 .heading:hover {
    background-color: #0056b3;
 }
@@ -94,9 +99,7 @@ a{
    padding: 20px;
    line-height: 25px;
    border-radius: 10px;
-   /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-   /* Adjusted shadow */
    text-align: center;
 }
 
@@ -154,8 +157,7 @@ a{
 
 .contact-text {
    width: 50%;
-   padding-left: 1.5rem;
-   margin-left: 20px;
+   padding-left: 12px;
    margin-bottom: 150px;
 }
 
@@ -163,6 +165,7 @@ a{
    font-size: 1.875rem;
    font-weight: bold;
    margin-bottom: 1rem;
+
 }
 
 .contact-description {
@@ -337,7 +340,7 @@ a{
 .notfound-content {
    padding: 100px;
    border-radius: 8px;
-  
+
    text-align: center;
 }
 
@@ -352,5 +355,5 @@ a{
 }
 
 .notfound-link:hover {
-   color: #ef4444; 
+   color: #ef4444;
 }
