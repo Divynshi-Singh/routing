@@ -1,4 +1,4 @@
-body {
+ body {
    background-color: #d9d9d9;
    overflow-x: hidden;
    margin: 0;
@@ -36,7 +36,6 @@ body {
    font-weight: bold;
 }
 
-/* Container for content */
 .container {
    display: flex;
    flex-direction: column;
@@ -44,7 +43,6 @@ body {
    align-items: center;
 }
 
-/* Headings box */
 .headings-box {
    margin-bottom: 100px;
    width: 700px;
@@ -125,7 +123,6 @@ a {
    background-color: #FF2E00;
 }
 
-/* About Page Styles */
 .about-container {
    padding-left: 50px;
    max-width: 1400px;
@@ -191,10 +188,8 @@ a {
    margin-bottom: 1rem;
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 1024px) {
 
-   /* Navbar */
    .navbar {
       flex-direction: column;
       padding-left: 15px;
@@ -207,7 +202,6 @@ a {
       margin: 5px 0;
    }
 
-   /* Contact Page */
    .contact-container {
       flex-direction: column;
       padding: 1rem;
@@ -322,7 +316,6 @@ a {
       font-size: 14px;
    }
 
-   /* Contact Page */
    .contact-container {
       flex-direction: column;
       padding: 1rem;
@@ -364,3 +357,36 @@ a {
 .notfound-link:hover {
    color: #ef4444;
 }
+
+ .message-not-found {
+   background-color: white;
+   color: red;         
+   border: 1px solid #f5c6cb; 
+   padding: 20px;
+   border-radius: 10px;
+   margin: 200px auto;
+   width:30%;
+   max-width: 700px;
+   text-align: center;
+ }
+ 
+ .message-not-found h3 {
+   font-size: 1.75rem;
+   font-weight: bold;
+   margin-bottom: 13px;
+ }
+
+ .message-not-found button {
+   background-color: #007BFF; 
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .message-not-found button:hover {
+   background-color: #0056b3; 
+ } 
+   
