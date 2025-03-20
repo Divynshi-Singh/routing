@@ -15,7 +15,7 @@ body {
    padding-right: 30px;
 }
 
-.navbar a {
+.navbar-link {
    color: white;
    font-size: 20px;
    font-weight: 600;
@@ -23,8 +23,13 @@ body {
    transition: color 0.3s ease-in-out;
 }
 
-.navbar a:hover {
+.navbar-link:hover {
    color: blue;
+}
+
+.active-link {
+   color: blue ;
+   font-weight: bold;
 }
 
 /* Container for content */
